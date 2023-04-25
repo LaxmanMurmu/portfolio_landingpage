@@ -1,0 +1,103 @@
+/* <!-- =================================================================Side BAR==================================================== --> */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: none;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    width: 290px;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    /* left:1540px; */
+    right: 0;
+    overflow-y: auto;
+}
+
+
+
+/* <!-- =================================================================Body==================================================== --> */
+body{
+    min-height: 100vh;
+    background-image: url("bubble_images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.main_con {
+    margin-top: -61px;
+}
+.image {
+    margin: auto;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    /* border: 2px solid; */
+    margin-right: 125px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.first_intro {
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+}
+
+.btn1{
+    background-color: transparent;
+    border: 2px solid aqua;
+    border-radius: 20px;
+}
+.btn1:hover{
+    background-color: aqua;
+}
+
+.item {
+    text-align: center;
+}
+
+.side_logo_menu{
+    /* border: 2px solid black; */
+    /* display: flex;
+    justify-content: end; */
+    float: right;
+}
+
+#menu_logo {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    /* remove bullets */
+}
+
+.link_box li a {
+    text-decoration: none;
+    /* remove underline */
+}
+
+
+.link_box:hover {
+    background-color: aqua;
+}
+
+.link_head_box:hover {
+    background-color: black;
+
+}
